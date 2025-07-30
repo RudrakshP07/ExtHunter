@@ -1,2 +1,12 @@
 # ExtHunter
-ExtHunter is a lightweight Bash tool that scans endpoint lists for URLs ending with sensitive file extensions like .env, .sql, .log, .zip, and more. Designed for recon workflows, it helps bug bounty hunters and security researchers quickly identify potential data leaks from large sets of discovered URLs.
+
+**ExtHunter** is a Bash-based passive reconnaissance utility that scans lists of gathered endpoints for file extensions that commonly indicate sensitive information leaks — such as `.env`, `.sql`, `.bak`, `.zip`, `.log`, and more.
+
+## 🔍 Use Case
+
+Ideal for bug bounty hunters, penetration testers, or OSINT analysts who already have gathered endpoints (via tools like `waybackurls`, `gau`, or `katana`) and want to filter out the juicy ones quickly.
+
+---
+
+## 📁 Folder Structure
+
